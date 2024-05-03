@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.logo {
+    height: 90%;
+
+}
+
+.toposite{
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    font-family: "Kanit", sans-serif;
+    gap: 50px;
+    font-size: 30px;
+}
+.gifmario{
+    background-image: url("https://phalarope-static-storage.s3.sa-east-1.amazonaws.com/dg/Img/2/45/1c48e7e09442d2d6b41d5b721e72bf23.gif");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+a{
+color: orange;
+text-decoration: none;
+font-family: "Kanit", sans-serif;
+font-size: 30px;
+padding: 5px 10px;
+}a:hover{
+    color: red;
+
+}
+.curriculo:hover{
+  color: red;
+  
+  border-radius: 10px;
+}
+.curriculo{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+}
+body{
+    background-color: black;
+    font-family: "Kanit", sans-serif;
+}
+.sobre{
+    color: white;
+    height: 80vh;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+   
+.sobre h2{
+    font-size: 75px;
+}
+.info{
+    max-width: 600px;
+    width: 600px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.infoperfil{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+height: 70vh;
+color: white;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 30px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    border-radius: 0  0 18px 18px;
+}
+.imgperfil{
+    max-width: 400px;
+    border-radius: 50%;
+    border: 2px solid white;    
+    display: flex;
+   
+}
+.infoperfil h2{
+    font-size: 80px;
+    font-family: "Quicksand", sans-serif;
+}
+.infoperfil p {
+    font-size: 30px;
+    font-family: "Poetsen One", sans-serif;
+}
