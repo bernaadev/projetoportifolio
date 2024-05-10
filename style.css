@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +41,7 @@ header {
 }
 
 a {
- color: blueviolet;
+    color: blueviolet;
     text-decoration: none;
     font-family: "Kanit", sans-serif;
     font-size: 30px;
@@ -74,22 +76,25 @@ body {
     max-width: 80vw;
     margin: 0 auto;
     margin-top: 100px;
-justify-content: space-between;
-display: flex;
+    justify-content: space-between;
+    display: flex;
+    border-top: 10px solid rgb(39, 39, 252);
+    padding-top: 30px;
 }
 
 .sobre h2 {
     font-size: 75px;
     font-family: "Sedgwick Ave Display", cursive;
-    
+
 }
 
 .info {
     max-width: 600px;
-    width: 600px;
+    width: 900px;
     flex-direction: column;
     display: flex;
     align-items: center;
+
 }
 
 .infoperfil {
@@ -123,11 +128,55 @@ display: flex;
 .infoperfil p {
     font-size: 30px;
     font-family: "Poetsen One", sans-serif;
-    color: blue;
+    color: rgb(0, 0, 255);
 }
-.dev{
+
+.dev {
     font-family: "Sedgwick Ave Display", cursive;
 }
-.imgprogram{
-    height: 300px;
+
+.imgprogram {
+
+    height: 500px;
+}
+
+.info p {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.cursocard {
+    display: flex;
+    background-color: rgba(0, 0, 107, 0.5);
+    width: 750px;
+    padding: 30px;
+    border-radius: 16px;
+    flex-direction: column;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 250px;
+}
+
+.titlecurso {
+    color: #ffffff;
+    font-size: 80px;
+    margin-left: 300px;
+    color: rgb(0, 0, 255);
+}
+.cursocard h2{
+    color: rgb(0, 0, 255);
+}
+.titlepro{
+    color: rgb(51, 51, 255);
+}
+.conteudocur{
+    color: #ffffff;
+}
+.finalcur{
+color: rgb(72, 72, 165);
 }
