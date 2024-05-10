@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,7 +20,7 @@ header {
 
 }
 
-.toposite{
+.toposite {
     align-items: center;
     display: flex;
     padding: 50px;
@@ -28,7 +28,8 @@ header {
     gap: 50px;
     font-size: 30px;
 }
-.gifmario{
+
+.gifmario {
     background-image: url("https://phalarope-static-storage.s3.sa-east-1.amazonaws.com/dg/Img/2/45/1c48e7e09442d2d6b41d5b721e72bf23.gif");
     height: 100vh;
     background-repeat: no-repeat;
@@ -36,74 +37,97 @@ header {
     display: flex;
     justify-content: center;
 }
-a{
-color: orange;
-text-decoration: none;
-font-family: "Kanit", sans-serif;
-font-size: 30px;
-padding: 5px 10px;
-}a:hover{
-    color: red;
+
+a {
+ color: blueviolet;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+a:hover {
+    color: rgb(145, 97, 255);
 
 }
-.curriculo:hover{
-  color: red;
-  
-  border-radius: 10px;
+
+.curriculo:hover {
+    color: rgb(145, 97, 255);
+
+    border-radius: 10px;
 }
-.curriculo{
-    background-color: orange;
+
+.curriculo {
     border-radius: 10px;
     color: white;
+    color: blueviolet;
 }
-body{
+
+body {
     background-color: black;
     font-family: "Kanit", sans-serif;
 }
-.sobre{
+
+.sobre {
     color: white;
     height: 80vh;
     max-width: 80vw;
     margin: 0 auto;
     margin-top: 100px;
-    flex-direction: column;
+justify-content: space-between;
+display: flex;
 }
-   
-.sobre h2{
+
+.sobre h2 {
     font-size: 75px;
+    font-family: "Sedgwick Ave Display", cursive;
+    
 }
-.info{
+
+.info {
     max-width: 600px;
     width: 600px;
     flex-direction: column;
     display: flex;
     align-items: center;
 }
-.infoperfil{
+
+.infoperfil {
     display: flex;
     flex-direction: column;
     gap: 15px;
-height: 70vh;
-color: white;
+    height: 70vh;
+    color: white;
     background-color: rgba(0, 0, 0, 0.795);
     padding: 30px;
     width: 900px;
     display: flex;
     align-items: center;
-    border-radius: 0  0 18px 18px;
+    border-radius: 0 0 18px 18px;
 }
-.imgperfil{
+
+.imgperfil {
     max-width: 400px;
     border-radius: 50%;
-    border: 2px solid white;    
+    border: 2px solid white;
     display: flex;
-   
+
 }
-.infoperfil h2{
+
+.infoperfil h2 {
     font-size: 80px;
     font-family: "Quicksand", sans-serif;
+    color: cadetblue;
 }
+
 .infoperfil p {
     font-size: 30px;
     font-family: "Poetsen One", sans-serif;
+    color: blue;
+}
+.dev{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.imgprogram{
+    height: 300px;
 }
